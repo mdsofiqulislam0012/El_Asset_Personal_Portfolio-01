@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Personal Portfolio</title>
+    <meta name="description" content="Personal Portfolio Website">
+    <meta name="keywords" content="Portfolio, Personal Website, Web Developer">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- cdn link -->
+     <link rel="stylesheet" href="/asset/css/style.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">MyPortfolio</a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navMenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ================= HOME PAGE ================= -->
+    <section id="home" class="py-5 bg-light">
+        <div class="container text-center">
+            <h1 class="fw-bold">Hi, I'm Sofiqul !</h1>
+            <p class="lead">Frontend Web Developer</p>
+
+            <!-- Image Placeholder -->
+            <div class="my-4 border p-5">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div id="carouselExampleCaptions" class="carousel slide">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="/asset/image/portfolio.png" class="img-fluid rounded" alt="...">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <p>Building Modern Web Experiences</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="/asset/image/portfolio2.png" class="d-block w-100 rounded" alt="...">
+
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="/asset/image/portfolio3.png" class="d-block w-100 rounded" alt="...">
+
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button"
+                                data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button"
+                                data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-5 mission_vission">
+                <div class="col-lg-6 mission">
+                    <h4 class="text-success fw-bold mt-2 text-center">Mission</h4>
+                    <p class="text-center px-5">To deliver high-quality, responsive, and user-friendly web solutions that empower businesses and
+                        individuals.</p>
+                </div>
+                <div class="col-lg-6 mission">
+                    <h4 class="text-success fw-bold mt-2 text-center">Vision</h4>
+                    <p class="text-center px-5">To be a leading web developer recognized for creativity, innovation, and client satisfaction worldwide</p>
+                </div>
+            </div>
+
+            <!-- Services Preview -->
+            <h3 class="mt-5">My Services</h3>
+            <div class="row mt-3">
+                <div class="col-md-4">
+                    <div class="card p-3">Service 1</div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card p-3">Service 2</div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card p-3">Service 3</div>
+                </div>
+            </div>
+
+            <!-- Client Feedback -->
+            <h3 class="mt-5">Client Feedback</h3>
+            <div class="card mt-3 p-3">Client feedback text...</div>
+        </div>
+    </section>
+
+    <!-- ================= ABOUT PAGE ================= -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">About Me</h2>
+
+            <h4>Biography</h4>
+            <p>Personal biography goes here...</p>
+
+            <h4 class="mt-4">Existing Clients</h4>
+            <div class="row">
+                <div class="col-md-3 border p-3">Client 1</div>
+                <div class="col-md-3 border p-3">Client 2</div>
+                <div class="col-md-3 border p-3">Client 3</div>
+                <div class="col-md-3 border p-3">Client 4</div>
+            </div>
+
+            <h4 class="mt-4">Skills</h4>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- ================= PORTFOLIO PAGE ================= -->
+    <section id="portfolio" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Portfolio</h2>
+
+            <h5>Personal Information</h5>
+            <p>Details here...</p>
+
+            <h5>Education</h5>
+            <p>Education details...</p>
+
+            <h5>Special Skills</h5>
+            <p>Special skills...</p>
+
+            <h5>Training</h5>
+            <p>Training info...</p>
+
+            <h5>Work Experience</h5>
+            <p>Work experience details...</p>
+        </div>
+    </section>
+
+    <!-- ================= SERVICES PAGE ================= -->
+    <section id="services" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Services</h2>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card p-4">Service A</div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card p-4">Service B</div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card p-4">Service C</div>
+                </div>
+            </div>
+
+            <h4 class="mt-5">Clients</h4>
+            <p>Client list or logos...</p>
+        </div>
+    </section>
+
+    <!-- ================= CONTACT PAGE ================= -->
+    <section id="contact" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Contact Me</h2>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>Direct Contact</h5>
+                    <p>Email: example@mail.com</p>
+                    <p>Phone: 0123456789</p>
+                </div>
+
+                <div class="col-md-6">
+                    <form>
+                        <input class="form-control mb-3" placeholder="Your Name">
+                        <input class="form-control mb-3" placeholder="Your Email">
+                        <textarea class="form-control mb-3" placeholder="Message"></textarea>
+                        <button class="btn btn-primary w-100">Send</button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Google Map Placeholder -->
+            <div class="mt-4 border p-5 text-center">
+                Google Map Here ...
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="bg-dark text-white text-center p-3">
+        © 2025 Personal Portfolio
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

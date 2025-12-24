@@ -1,0 +1,20 @@
+.mission{
+     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+     width: 450px;
+     margin-left: 40px;
+     border-radius: 20px;
+     margin-right: 40px;
+     height: 150px;
+}
+.mission:hover{
+    background-color: yellowgreen;
+    transition: all ease-in-out 0.5s;
+    color: white;
+    transform: scale(1.1);
+}
+
+
+.mission_vission{
+    display: flex;
+    justify-content: space-around;
+}
