@@ -97,3 +97,10 @@ h1,h2,h3,h4,h5,h6,p,a, ul,li,ol,span{
 .style{
     font-size: 20px;
 }
+
+.controler{
+    margin-top: 130px;
+}
+.icon-controler{
+    justify-content: center;
+}
